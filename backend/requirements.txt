@@ -1,0 +1,28 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+httpx==0.27.2
+
+# ── Phase 2: Authentication ────────────────────────────────────────────────────
+PyJWT==2.10.1
+cryptography==44.0.2
+
+# ── Phase 4: Database ──────────────────────────────────────────────────────────
+supabase==2.3.4
+
+# ── Phase 5: AI Chat ───────────────────────────────────────────────────────────
+openai>=1.40.0
+
+# ── Phase 6: RAG ───────────────────────────────────────────────────────────────
+python-multipart
+langchain==0.2.14
+langchain-openai==0.1.22
+langchain-community==0.2.12
+pypdf==4.3.1
+tiktoken>=0.8.0
+
+# ── Phase 8: Tool Calling ──────────────────────────────────────────────────────
+duckduckgo-search
+requests==2.32.3
