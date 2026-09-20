@@ -26,3 +26,4 @@ tiktoken>=0.8.0
 # ── Phase 8: Tool Calling ──────────────────────────────────────────────────────
 duckduckgo-search
 requests==2.32.3
+pytz
